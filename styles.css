@@ -1,0 +1,24 @@
+*{
+    font-family:sans-serif;
+  }
+  body{
+    background-image:url('https://images8.alphacoders.com/998/thumb-350-998795.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  .container{
+    font-family:Monospace	Courier New Lucida Console;
+    text-align:center;
+    text-shadow:2px 2px 5px yellow;
+  }
+  img{
+    height:60%;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    vertical-align:middle;
+  }
+  p{
+    background-color:white;
+    border:5px inset green;
+  }
