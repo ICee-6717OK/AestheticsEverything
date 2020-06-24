@@ -68,4 +68,7 @@ ol.contacts{
     color:white;
     text-align: center;
     left:30px;
+    position:absolute;
+    list-style-position: outside;
+    list-style-type:none;
 }
