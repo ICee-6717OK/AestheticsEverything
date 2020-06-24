@@ -1,63 +1,71 @@
 *{
     font-family:sans-serif;
   }
+h1{
+  text-emphasis: emphasize;
+  text-shadow: 2px 2px 5px yellowgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+  text-align: center;
+}
   ul.polaroids a:after {
     content: attr(title);
   }
-  ul.polaroids a {
+ul.polaroids a {
     transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
-  }
+}
   
-  ul.polaroids li:nth-child(even) a {
+ul.polaroids li:nth-child(even) a {
     transform: rotate(2deg);
     -moz-transform: rotate(2deg);
-  }
+}
   
-  ul.polaroids li:nth-child(3n) a {
+ul.polaroids li:nth-child(3n) a {
     transform: none;
     -moz-transform: none;
     position: relative;
     top: -5px;
-  }
+}
   
-  ul.polaroids li:nth-child(5n) a {
+ul.polaroids li:nth-child(5n) a {
     transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     position: relative;
     right: 5px;
-  }
+}
   
-  ul.polaroids li:nth-child(8n) a {
+ul.polaroids li:nth-child(8n) a {
     position: relative;
     top: 8px;
     right: 5px;
-  }
+}
   
-  ul.polaroids li:nth-child(9n) a {
+ul.polaroids li:nth-child(9n) a {
     position: relative;
     top: 3px;
     left: -5px;
-  }
-  ul.polaroids a {
+}
+ul.polaroids a {
     transition: transform .15s linear;
     box-shadow: 0 3px 6px rgba(0,0,0,.25);
     animation: 0 3px 6px rgba(0,0,0,.25);
-  }
-  ul.polaroids a:hover {
+}
+ul.polaroids a:hover {
     transform: scale(1.25);
     -moz-transform: scale(1.25);
     position: relative;
     z-index: 5;
-  }
-  ul.polaroids a {
+}
+ul.polaroids a {
     box-shadow: 0 3px 6px rgba(0,0,0,.5);
     -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
-  }
-  ol.contacts{
+}
+ol.contacts{
     border:3px dashed green;
     background-color: black;
     color:white;
     text-align: center;
     left:30px;
-  }
+}
