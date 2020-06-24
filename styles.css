@@ -18,7 +18,7 @@ p{
   justify-content: center;
 }
 div{
-  display: flex;
+  display:block;
 }
 div.content{
   display: block;
