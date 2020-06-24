@@ -21,7 +21,10 @@ div{
   display: flex;
 }
 div.content{
-  flex-direction: row;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 ul.polaroids a {
     transform: rotate(-2deg);
