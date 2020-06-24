@@ -11,6 +11,18 @@ h1{
 h2{
   text-align: center;
 }
+p{
+  border: 3px inset maroon;
+  left:10px;
+  right:0px;
+  justify-content: center;
+}
+div{
+  display: flex;
+}
+div.content{
+  flex-direction: row;
+}
 ul.polaroids a {
     transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
