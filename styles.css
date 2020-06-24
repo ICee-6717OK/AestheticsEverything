@@ -9,9 +9,6 @@ h1{
 h2{
   text-align: center;
 }
-  ul.polaroids a:after {
-    content: attr(title);
-  }
 ul.polaroids a {
     transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
