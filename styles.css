@@ -1,8 +1,13 @@
-*{
-    font-family:sans-serif;
-    background-image: url("https://github.com/ICee-6717OK/AestheticsEverything/blob/master/backg.jpeg");
-    background-repeat: repeat;
-  }
+body{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-image:url('././home/oem/Desktop/myproject/backg.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
 h1{
   text-emphasis: emphasize;
   text-shadow: 2px 2px 5px yellowgreen;
