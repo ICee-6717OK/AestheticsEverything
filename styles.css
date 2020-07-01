@@ -5,6 +5,14 @@
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: dodgerblue 1px 1px 1px;
+  font-size: xx-large;
+  text-align:center ;
+}
+.content{
+  font-size: x-large;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
 }
 .column {
   float: left;
@@ -42,21 +50,35 @@ text-align: center;
 .overlay:hover{
 opacity: 1.5;
 }
-#menu-outer {
-	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
+#list{
+  font-size: x-large;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
 }
-
-.table {
-	display: table;
-	margin: 0 auto;
-}
-
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
+  #banner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #banner li {
+    float: left;
+  }
+  
+  #banner li> a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .active {
+    background-color: cacaca;
+  }
